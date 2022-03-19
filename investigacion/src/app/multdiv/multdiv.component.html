@@ -1,0 +1,15 @@
+<div id="container">
+    <h1>
+      Operación
+    </h1>
+  
+    <span>Primer Número</span> <input #num1 id="num1" type="number" />
+    
+    <span>Segundo Número</span> <input #num2 id="num2" type="number" />
+  
+    <br><br><br>
+
+    <button (click)="printMultiplicacion(num1.value, num2.value)" id="buttonm">multiplicar</button>
+    <button (click)="printDivision(num1.value, num2.value)" id="buttond">dividir</button>
+    Resultado: <input #result id="result" type="text" />
+  </div>

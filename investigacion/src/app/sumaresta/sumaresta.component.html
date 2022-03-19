@@ -1,0 +1,16 @@
+<div id="container">
+    <h1>
+      Operación
+    </h1>
+  
+    <span>Primer Número</span> <input #num1 id="num1" type="number" />
+    
+    <span>Segundo Número</span> <input #num2 id="num2" type="number" />
+  
+    <br><br><br>
+  
+    <button (click)="printSuma(num1.value, num2.value)" id="buttons">sumar</button>
+    <button (click)="printResta(num1.value, num2.value)" id="buttonr">restar</button>
+    Resultado: <input #result id="result" type="text" />
+  </div>
+  
